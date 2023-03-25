@@ -6,10 +6,31 @@
 #4 4 -> 2 2 
 #5 6 -> 2 3
 
-S = int(input('Введите S: '))
-P = int(input('Введите P: '))
-for x in range(0, 1001):
-    y = S - x
-    if(x * y == P):
-        print(f'X = {x}, Y = {y}')
-        break
+# 1
+# S = int(input('Введите S: '))
+# P = int(input('Введите P: '))
+# for x in range(0, 1001):
+#     y = S - x
+#     if(x * y == P):
+#         print(f'X = {x}, Y = {y}')
+#         break
+
+#2
+# summa =  int(input('Введите сумму: '))
+# multi =  int(input('Введите произведение: '))
+
+# for i in range(1000):
+#     for j in range(1000):
+#         if summa == i + j and multi == i*j:
+#             print(i, j)
+
+# 3
+# summa =  int(input('Введите сумму: '))
+# multi =  int(input('Введите произведение: '))
+
+# summa = i + j
+# multi = i * j
+# j = multi - i
+# multi = i * (summa - i)
+# i**2 - summa * i - multi = 0
+
